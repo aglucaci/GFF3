@@ -1,16 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Created on Thu Oct  4 15:47:18 2018
-
-@author: iamtokr
-
-https://github.com/mttmartin/transcript2gene/blob/master/transcript2gene.py
-https://insidedna.io/tutorials/view/biopython-retrieving-fasta-sequences-ncbi-databases
-https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists/7961390
-
+@author: alexander lucaci
 """
-#!/usr/bin/env python3
+
 # =============================================================================
 # Imports
 # =============================================================================
@@ -89,25 +80,4 @@ Main()
 # =============================================================================
 # End of file. 
 # =============================================================================
-
-"""
-I have all the fasta files from NepCla but they are in separate files. (~3400 files)
--script to combine them all into one big file. 
---This is the transcript file.
-
--take the gff file output from above. It has the protein product names and sequence sites
--Grab the actual sequence for each thing.
-
-Run this against the protein file.
-However, they are not lined up like the common house spider
-Have to search for mRNA product name to match protein file.
-
-
-Tonight, set up the 3rd species to download fasta files. (untitled7_Github.py)
-
-
-All vs all blast on the transcript files.
-https://www.biostars.org/p/169706/
-
-"""
 
