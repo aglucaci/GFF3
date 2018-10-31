@@ -14,8 +14,8 @@ from Bio import Entrez, SeqIO
 # =============================================================================
 GB_IDList = []
 Entrez.email="alexander.lucaci@temple.edu"
-in_file = "GCA_002102615.1_NepCla1.0_genomic.gff"
-out_file = "gff3_to_transcript1.gff"
+in_file = ".gff"
+out_file = "gff3_to_transcript.gff"
 
 # =============================================================================
 # Helper Functions
@@ -30,7 +30,7 @@ def singleEntry(singleID):   #the singleID is the accession number
     #f.close()
     
     f = open(out_file, 'a+')
-    f.write(handle.read())
+    f.write(handle.read())GCA_002102615.1_NepCla1.0_genomic
     handle.close()
     f.close()
     
